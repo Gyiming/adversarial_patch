@@ -11,8 +11,10 @@ This repo is for generating adversarial patch in continuous video sequence.
 
 
 ## Environment Setup.
-1. ```conda env create -f env.yaml```
-2. Install package Open3D from http://www.open3d.org/docs/release/getting_started.html, pip installation recommonded.
+0. Install anaconda.
+1. ```conda env create -f env.yaml```.
+2. Activate the environment. ```conda activate fb```.
+3. Install package Open3D from http://www.open3d.org/docs/release/getting_started.html, pip installation recommonded.
 
 ## Using Code.
 1. Fill pixels without depth. ```python fill_depth.py --img xxx```. xxx is the image id.
